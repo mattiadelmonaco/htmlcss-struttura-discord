@@ -84,20 +84,32 @@ nav {
 ---------------------------*/
 
 .columns {
-    display: flex;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .col-big {
     background-color: #1e90ff;
-    width: 60%;
+    width: 720px;
     border: 1px dashed black;
     height: 500px;
 }
 
 .col-small {
     background-color: #ffc0cb;
-    width: 40%;
+    width: 480px;
     border: 1px dashed black;
     height: 500px;
+}
+
+.columns-grey-back {
+    background-color: #d3d3d3;
+    padding: 50px 0;
+}
+
+.columns-grey-back>.container {
+    display: flex;
+}
+
+.columns>.container {
+    display: flex;
 }
