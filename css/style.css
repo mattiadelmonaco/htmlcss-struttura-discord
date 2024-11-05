@@ -113,3 +113,13 @@ nav {
 .columns>.container {
     display: flex;
 }
+
+/*------------------------
+    MAIN'S LAST COLUMN
+------------------------*/
+
+.last-col {
+    width: 100%;
+    height: 900px;
+    background-color: #228b22;
+}
