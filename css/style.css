@@ -156,3 +156,33 @@ nav {
     height: 580px;
     border: 2px dashed white;
 }
+
+/*------------------
+    FOOTER BOTTOM
+--------------------*/
+
+.footer-bottom>.container>* {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom {
+    background-color: #23272a;
+    padding-top: 30px;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.col-lightgreen {
+    background-color: #7fffd4;
+    width: 100%;
+    height: 80px;
+}
+
+.logo-second,
+.button {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    padding: 10px;
+}
